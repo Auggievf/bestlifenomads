@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Jason Rogers -- Developer 
 
 # THANKS
 
-    <name>
+    The love of my life for staying with me while I figure this out
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    The Odin Project, CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css, 
