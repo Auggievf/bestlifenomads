@@ -1,0 +1,49 @@
+/*! Thanks for taking the time to look at my CSS.  
+I opted for classic CSS instead of SASS or LESS or some other flavor
+... at least for this stage though I do have experience with them. */
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header {
+
+}
+
+content {
+
+}
+
+.hero {
+
+}
+
+.info {
+
+}
+
+.buckets {
+
+}
+
+.bucket {
+
+}
+
+figure blockquote {
+
+}
+
+figcaption {
+
+}
+
+.cta {
+
+}
+
+footer {
+
+}
