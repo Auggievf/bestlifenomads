@@ -14,8 +14,12 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
+  
+  <!-- Google Roboto Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/boilerplate.css">
   <link rel="stylesheet" href="css/media.css">
@@ -26,23 +30,30 @@
 
 <body>
   <header>
-    <img src="img/matilda.png" alt="Matilda Icon">
-    <nav>Some nav here</nav>
+    <img src="img/rhino-giraffe.png" alt="BLN Logo">
+    <nav>
+      <ul>
+        <li class="link 1">Nav Link 1</li>
+        <li class="link 2">Nav Link 2</li>
+        <li class="link 3">Nav Link 3</li>
+      </ul>
+    </nav>
   </header>
   <div class="content">
     <div class="hero">
       <div class="txt">
         <h1>Best Life Nomads</h1>
+        <hr>
         <p>This is the official Best Life Nomads website.  Any other is merely an imitation and definitely not where you want to be.</p>
       </div>
       <img src="img/sunset-tree-hill.jpg" alt="Sunset over Hemet">
     </div>
     <div class="info">
-      <h2>Here is some info about us and wheat we are doing</h2>
+      <h2>Here is some info about us and what we are doing</h2>
       <div class="buckets">
         <div class="bucket">
-          <img src="img/us.jpg" alt="The story of us">
-          <p>Our story... this far.</p>
+          <img src="img/so-happy.jpg" alt="The story of us">
+          <p>Our story...</p>
         </div>
         <div class="bucket">
           <img src="img/matilda-setup.jpg" alt="Matilda Margarite">
@@ -60,13 +71,16 @@
     </div>
     <figure>
       <blockquote cite="https://www.goodreads.com/quotes/1153517-i-woke-up-early-and-took-the-first-train-to">
-          <p>I woke up early and took the first train to take me away from the city. The noise and all its people. I was alone on the train and had no idea where I was going, and that’s why I went there. Two hours later we arrived in a small town, one of those towns with one single coffee shop and where everyone knows each other’s name. I walked for a while until I found the water, the most peaceful place I know. There I sat and stayed the whole day, with nothing and everything on my mind, cleaning my head. Silence, I learned, is some times the most beautiful sound.</p>
+          <p>Long term travel is not an act of rebellion against society;<br />it’s   an act of common sense within society</p>
       </blockquote>
-      <figcaption>—Charlotte Eriksson</figcaption>
+      <figcaption>—Rolf Potts</figcaption>
     </figure>
     <div class="cta">
-      <p>Come check out our online store for more ways to participate</p>
-      <button type="button" onclick="alert('Coming soon')">Click Me!</button>
+      <div>
+        <h2>Thanks for visiting our page!</h2>
+        <p>Now it's time to sign up for our newsletter over there to the right!</p>
+      </div>
+      <button type="button" onclick="alert('Coming soon')">Sign Me Up</button>
     </div>
   </div>
   <footer>Copyright &copy; Best Life Nomads, LLC</footer>
